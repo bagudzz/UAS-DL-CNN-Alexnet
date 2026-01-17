@@ -1,8 +1,7 @@
+data_raw/
+data/
 .venv/
 __pycache__/
 *.pyc
-data/
-data_raw/
 weights/
 *.pth
-.DS_Store
