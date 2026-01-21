@@ -4,4 +4,6 @@ gradio
 pillow
 tqdm
 scikit-learn
+huggingface_hub
+
 

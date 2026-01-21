@@ -1,5 +1,6 @@
 import gradio as gr
 from inference import load_model, predict
+from huggingface_hub import hf_hub_download
 
 WEIGHTS_PATH = "weights/alexnet_catsdogs.pth"
 model, idx_to_class, device = load_model(WEIGHTS_PATH)
